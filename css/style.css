@@ -1,0 +1,429 @@
+body {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.container {
+  background-color: #dfe9c1;
+  max-width: 1024px;
+  margin: 0px auto;
+  border: 1px solid;
+}
+
+.logo {
+  display: inline-block;
+}
+
+header nav {
+  display: flex;
+  flex-flow: row;
+  margin-top: 50px;
+  margin-left: 95px;
+}
+
+header nav ul {
+  list-style: none;
+  margin-left: 210px;
+}
+
+header nav ul li {
+  float: left;
+  margin-left: 35px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.healthy {
+  font-size: 52.55px;
+  width: 511px;
+  text-align: center;
+  margin-left: 238px;
+  margin-bottom: -40px;
+  font-family: Ubuntu, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 110px;
+}
+
+.para p {
+  width: 417px;
+  text-align: center;
+  margin-left: 289px;
+  font-size: 25px;
+  margin-top: 60px;
+}
+
+.popular p {
+  font-size: 30px;
+  margin-left: 378px;
+  margin-top: 295px;
+  font-family: "Ubuntu";
+}
+
+.background1{
+  background-image: url(../img/header.png);
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 241px;
+  background: white;
+  margin: 50px;
+}
+
+.box {
+  margin-left: 21px;
+  font-family: "Ubuntu";
+}
+
+.more {
+  font-family: "Ubuntu";
+  margin: 25px;
+  margin-left: 400px;
+}
+
+.more a {
+  text-decoration: none;
+  border: 1px solid;
+  /* width: 157px; */
+  padding: 10px;
+  padding: 10px 50px;
+  border-radius: 34px;
+  background: blue;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.imgh2 {
+  background-color: #ffffff;
+}
+.left {
+  float: right;
+  width: 519px;
+  height: 555px;
+}
+
+.left h2 {
+  font-size: 42px;
+  margin-top: 140px;
+  width: 296px;
+  margin-left: 45px;
+  font-family: "Ubuntu";
+}
+
+.left p {
+  font-size: 20px;
+  font-size: 20px;
+  width: 390px;
+  margin-left: 45px;
+  font-family: "Ubuntu";
+}
+.read {
+  margin-top: 70px;
+}
+.read a {
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 45px;
+  border: 1px solid;
+  padding: 15px 65px;
+  border-radius: 25px;
+  background-color: #7287ae;
+  color: white;
+  font-family: "Ubuntu";
+  letter-spacing: 2px;
+}
+
+.imgh3 {
+  background-color: #ffffff;
+}
+
+.imgh3 img {
+  float: right;
+}
+.right {
+  width: 506px;
+  height: 555px;
+}
+
+.right h2 {
+  font-size: 42px;
+  padding-top: 140px;
+  width: 296px;
+  font-family: "Ubuntu";
+  margin: 0px;
+  margin-left: 45px;
+}
+.right p {
+  font-size: 20px;
+  font-size: 20px;
+  width: 390px;
+  margin-left: 45px;
+  font-family: "Ubuntu";
+}
+.read2 {
+  margin-top: 70px;
+}
+.read2 a {
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 45px;
+  border: 1px solid;
+  padding: 15px 65px;
+  border-radius: 25px;
+  background-color: #7287ae;
+  color: white;
+  font-family: "Ubuntu";
+  letter-spacing: 2px;
+}
+
+.guide {
+  background-color: #7287ae;
+}
+.order {
+  padding: 50px;
+  margin-left: 340px;
+}
+.order h2 {
+  color: #ffffff;
+  font-size: 33px;
+}
+
+.numbring {
+  display: flex;
+  flex-flow: row;
+}
+.numbring p {
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 20px;
+  margin-left: 200px;
+  background-color: white;
+  font-size: 32px;
+  font-family: "Ubuntu";
+  color: #7287ae;
+  font-weight: bold;
+}
+.steps {
+  flex-flow: row;
+  display: flex;
+}
+.steps p {
+  font-family: "Ubuntu";
+  font-size: 33px;
+  margin: 0px;
+  /* margin-left: 170px; */
+  color: white;
+  font-weight: bold;
+}
+
+.details {
+  display: flex;
+  flex-flow: row;
+  margin-left: 100px;
+}
+
+.details p {
+  width: 286px;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-weight: 100;
+  color: wheat;
+}
+
+.promotion {
+  background-image: url(../img/backgrount.png);
+}
+.free {
+  position: relative;
+  margin: 0px;
+  padding-top: 97px;
+  margin-left: 312px;
+}
+.free h2 {
+  font-size: 58px;
+  font-family: "Ubuntu";
+  color: #7287ae;
+}
+.info {
+  width: 505px;
+  margin-left: 235px;
+}
+.info p {
+  font-size: 20.75px;
+  text-align: center;
+  color: #7287ae;
+}
+.voucher {
+  width: 350px;
+  height: 130px;
+  /* margin-bottom: 100; */
+  margin-left: 348px;
+  margin-top: 95px;
+}
+.voucher a {
+  text-decoration: none;
+  font-size: 22px;
+  border: 1px solid;
+  padding: 28px 60px;
+  border-radius: 55px;
+  background-color: #7287ae;
+  color: #ffffff;
+  font-family: "Ubuntu";
+  letter-spacing: 5px;
+}
+.quote {
+  margin-top: 80px;
+  margin-left: 485px;
+  height: 80px;
+}
+.quote h2 {
+  margin: 0px;
+  font-family: "Raleway";
+  font-size: 122px;
+  color: #7287ae;
+}
+.data {
+  margin: 0px;
+}
+.data p {
+  font-size: 28px;
+  width: 762px;
+  text-align: center;
+  margin: 0px;
+  margin-left: 135px;
+  color: #7287ae;
+  font-family: "Ubuntu";
+}
+.name {
+  margin-left: 420px;
+  margin-top: 20px;
+}
+.name h2 {
+  font-size: 30px;
+  font-family: "Ubuntu";
+  color: #7287ae;
+}
+
+.social-link {
+  font-size: 31px;
+  margin-left: 423px;
+  margin-top: 20px;
+}
+
+.fa-facebook {
+  background: #7287ae;
+  color: white;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 12px 18px;
+  font-size: 38px;
+  text-decoration: none;
+}
+
+.fa-twitter {
+  background: #7287ae;
+  color: white;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 12px;
+  font-size: 38px;
+  text-decoration: none;
+}
+
+.fa-instagram {
+  background: #7287ae;
+  color: white;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 12px 15px;
+  font-size: 38px;
+  text-decoration: none;
+}
+
+footer {
+  background-image: url(../img/footer.png);
+}
+
+.footer {
+  display: flex;
+  padding: 192px 0 0 128px;
+  font-family: "Ubuntu";
+}
+.footer h2 {
+  margin: 0px;
+  font-size: 18px;
+  font-family: "Ubuntu";
+  color: white;
+}
+.triple {
+  display: flex;
+  margin-left: 400px;
+}
+.triple p {
+  margin: 5px;
+  margin-right: 72px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.end{
+  display: flex;
+    margin-left: 104px;
+
+}
+
+.end p{
+  font-size: 18px;
+    /* text-align: left; */
+    margin: 0px;
+    font-family: "Ubuntu";
+    color: white;
+    width: 387px;
+}
+
+.ref a{
+  text-decoration: none;
+  font-family: "Ubuntu";
+  color: #ffffff;
+}
+.link1
+{
+  margin-left: 108px;
+}
+.link1 a{
+  margin-right: 91px;
+}
+.link2
+{
+  margin-left: 104px;
+}
+.link2 a{
+  margin-right: 78px;
+}
+.link3
+{
+  margin-left: 109px;
+}
+.link3 a{
+  margin-right: 94px;
+}
+.link4
+{
+  margin-left: 109px;
+
+}
+.link4 a{
+  margin-right: 98px;
+}
